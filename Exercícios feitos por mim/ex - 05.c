@@ -1,18 +1,7 @@
-// Atividade - 01
-
-typedef struct {
-	int matricula;
-	char nome[50];
-	int idade;
-	int classe;
-} Aluno;
+#include <stdio.h>
 
 int main() {
-	
-	Aluno Aluno;
-	
-	printf("Coletando as informações do aluno");
-	
-	printf()
-	
+    printf("OlÃ¡, mundo!\n");
+    return 0;
 }
+

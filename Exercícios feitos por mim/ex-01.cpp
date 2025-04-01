@@ -1,20 +1,20 @@
-// Exercício - 01
+// Exercï¿½cio - 01
 #include <stdio.h>
 #include <stdlib.h>
 
-//função para alocação de ponteiros
+//funï¿½ï¿½o para alocaï¿½ï¿½o de ponteiros
 
 void soma(int num1, int num2) {
-	*soma = num1 + num2
+	*soma = num1 + num2;
 }
 
 int main() {
 	int num1, num2, *soma;
 	
-	soma = malloc(sizeof(int))
+	soma = malloc(sizeof(int));
 	
 	if (soma) {
-		printf("Memória reservada com sucesso!!");
+		printf("Memï¿½ria reservada com sucesso!!");
 		
 		printf("Digite o primeiro valor da soma: ");
 		scanf("%d", &num1);
@@ -24,7 +24,7 @@ int main() {
 		
 		soma(num1, num2);
 		
-		printf("A soma dos valores %d + %d é %d", num1, num2, *soma)
+		printf("A soma dos valores %d + %d ï¿½ %d", num1, num2, *soma);
 		
 		
 		
